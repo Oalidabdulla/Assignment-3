@@ -1,10 +1,12 @@
 
 /**===========================================================================
- 
+ code site:
+ https://github.com/Oalidabdulla/Assignment-3
 =============================================================================*/
 
 
-/**-------- Assignment-1 (kilometerToMeter) --------*/
+
+/**-------- Assignment 3-1 (kilometerToMeter) --------*/
 
 // 01 kilometer is equal to 1,000 meters.
 
@@ -16,7 +18,7 @@ var meter = kilometerToMeter(5);
 console.log(meter);
 
 
-/**-------- Assignment-2 (budgetCalculator) -------- */
+/**-------- Assignment 3-2 (budgetCalculator) -------- */
 
 function budgetCalculator(clock, phone, laptop){
     const price = clock * 50;
@@ -29,7 +31,7 @@ const price = budgetCalculator(6, 6, 6);
 console.log(price);
 
 
-/**-------- Assignment-3 (hotelCost) -------- */
+/**-------- Assignment 3-3 (hotelCost) -------- */
 
 function hotelCost(cost) {
     var days = 0;
@@ -55,7 +57,7 @@ var total = hotelCost(26);
 console.log(total);
 
 
-/**-------- Assignment-4 (megaFriend) -------- */
+/**-------- Assignment 3-4 (megaFriend) -------- */
 
 function megaFriend(str) {
     const strArray = str;
@@ -66,6 +68,6 @@ function megaFriend(str) {
     );
     return sortedStrArray[0];
 }
-const str = ['abdulla', 'al', 'oalid', 'mothin', 'alu', 'abdullaal', 'abdulla', 'mdabdullaalbukhary'];
+const str = ['oalid', 'mothin', 'alu', 'abdulla'];
 const megaName = megaFriend(str);
 console.log(megaName);
